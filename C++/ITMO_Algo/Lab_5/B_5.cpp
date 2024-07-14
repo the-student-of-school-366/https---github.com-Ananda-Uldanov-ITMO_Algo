@@ -159,32 +159,32 @@ int main()
 {
     int x;
     BST Tree;
-    string comand;
-    while (cin >> comand)
+    string command;
+    while (cin >> command)
     {
-        if (comand == "insert")
+        if (command == "insert")
         {
             cin >> x;
             Tree.insert(x);
         }
-        else if (comand == "delete")
+        else if (command == "delete")
         {
             cin >> x;
             Tree.Delete(x);
         }
-        else if (comand == "exists")
+        else if (command == "exists")
         {
             cin >> x;
             if (Tree.exists(x) != NULL)
             {
-                cout << "true"<<"\n";
+                cout << "true" << "\n";
             }
             else
             {
-                cout << "false"<<"\n";
+                cout << "false" << "\n";
             }
         }
-        else if (comand == "next")
+        else if (command == "next")
         {
             cin >> x;
             Node *nex = Tree.next(x);
@@ -194,10 +194,10 @@ int main()
             }
             else
             {
-                cout << "none"<< "\n";
+                cout << "none" << "\n";
             }
         }
-        else if (comand == "prev")
+        else if (command == "prev")
         {
             cin >> x;
             Node *pre = Tree.prev(x);
