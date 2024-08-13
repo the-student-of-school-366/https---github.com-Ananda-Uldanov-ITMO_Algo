@@ -1,0 +1,4 @@
+C:\Users\HONOR\projects\helloworld\obj\Debug\net7.0\helloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HONOR\projects\helloworld\obj\Debug\net7.0\helloworld.AssemblyInfoInputs.cache
+C:\Users\HONOR\projects\helloworld\obj\Debug\net7.0\helloworld.AssemblyInfo.cs
+C:\Users\HONOR\projects\helloworld\obj\Debug\net7.0\helloworld.csproj.CoreCompileInputs.cache
